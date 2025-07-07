@@ -4,25 +4,6 @@ This repository contains code and experiments for the [Kaggle Competition: Googl
 
 ---
 
-## Repository Structure
-
-```
-├── unet-or-fcn2.ipynb           # Main notebook comparing UNet vs. FCN models
-├── data/                        # Competition data
-│   ├── train_images/           # Satellite images for training
-│   ├── train_masks/            # Ground-truth contrail masks
-│   ├── test_images/            # Satellite images for inference
-│   └── sample_submission.csv   # Submission format
-├── src/                         # Helper scripts and modules
-│   ├── data_utils.py           # Loading, mask encoding/decoding functions
-│   ├── augmentations.py        # Image augmentations (albumentations)
-│   └── models.py               # Model architectures (UNet, FCN, etc.)
-├── requirements.txt            # Python dependencies
-└── README-contrails.md         # This file
-```
-
----
-
 ## Data Description
 
 * **train\_images/**: RGB satellite tiles (PNG) used for training.
