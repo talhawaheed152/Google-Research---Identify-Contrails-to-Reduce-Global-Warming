@@ -1,3 +1,6 @@
+<img src="./contrail.png" alt="Header" width="400" />
+
+
 # Google Research: Identify Contrails to Reduce Global Warming
 
 This repository contains code and experiments for the [Kaggle Competition: Google Research - Identify Contrails to Reduce Global Warming](https://www.kaggle.com/competitions/google-research-identify-contrails-reduce-global-warming). The goal is to build an image segmentation model to detect contrails (airplane-induced cirrus clouds) in satellite imagery, enabling strategies to minimize radiative forcing.
